@@ -1,9 +1,9 @@
-const Character = require("../data") 
+const Film = require("../data") 
 
 
 
 module.exports = async (req,res) =>{
-    const characters = await Character.list()
-    res.status(200).json(characters);
+    const films = await Film.list()
+    res.status(200).json(films);
 
 }

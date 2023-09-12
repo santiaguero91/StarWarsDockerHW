@@ -2,7 +2,7 @@ const {Router} = require('express');
 const controllers = require("../controllers")
 
 const router = Router();
-router.get("/",controllers.getCharacters)
-router.post("/",controllers.createCharacters)
+router.get("/",controllers.createPlanets)
+router.post("/",controllers.createPlanets)
 
 module.exports = router;

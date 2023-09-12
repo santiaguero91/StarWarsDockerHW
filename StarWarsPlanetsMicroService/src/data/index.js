@@ -1,7 +1,7 @@
-const characters = require("./characters.json")
+const planets = require("./planets.json")
 
 module.exports ={
     list: async () =>{
-        return characters;
+        return planets;
     }
 };

@@ -1,4 +1,4 @@
 module.exports={
-    getCharacters: require("./getCharacters"),
-    createCharacters: require("./createCharacters"),
+    getPlanets: require("./getPlanets"),
+    createPlanets: require("./createPlanets"),
 }
