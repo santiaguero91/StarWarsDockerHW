@@ -13,7 +13,10 @@ server.use("*", (req,res)=>{
 
 
 server.use((err,req,res, next)=>{
-res.status(500).send(err.message)
+res.status(err.statusCode).send({
+    error:true,
+    message: err.message,
+})
 })
 
 module.exports = server;
