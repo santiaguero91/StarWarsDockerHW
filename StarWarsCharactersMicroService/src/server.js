@@ -11,4 +11,9 @@ server.use("*", (req,res)=>{
     res.status(404).send("notfound")
 })
 
+
+server.use((err,req,res, next)=>{
+res.status(500).send(err.message)
+})
+
 module.exports = server;
