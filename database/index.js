@@ -9,11 +9,8 @@ Planet.list()
 .then((res)=>console.log(res[0]));  
 */
 
-
 /* Planet.get(1)
 .then((res)=>console.log(res));   */
-
-
 
 /* Character.insert({
     _id:"200",
